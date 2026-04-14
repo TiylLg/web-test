@@ -1,0 +1,34 @@
+# Copy this file to .env and update with your actual values
+
+# MongoDB Configuration
+MONGODB_HOST=mongodb://localhost:27017
+MONGODB_PORT=27017
+MONGODB_USERNAME=your_username
+MONGODB_PASSWORD=your_password
+MONGODB_AUTH_SOURCE=admin
+MONGODB_DATABASE=WebsiteDB
+MONGODB_AUTH_MECHANISM=SCRAM-SHA-1
+MONGODB_RETRY_WRITES=false
+MONGODB_SSL=false
+MONGODB_TLS_ALLOW_INVALID_HOSTNAME=true
+
+# Database and Collection Names
+AUTH_DB=WebsiteDB
+AUTH_COL=Account
+VERIFY_COL=Verification
+PAYMENT_COL=Payment
+PRODUCT_COL=Product
+STUDIO_COL=Studio
+ORDER_COL=Order
+ORDER_HISTORY_COL=OrderHistory
+
+# JWT Configuration
+JWT_SECRET=awerva3DFS3g
+JWT_ALGORITHM=HS256
+
+# Stripe Configuration
+STRIPE_API_KEY=sk_test_your_stripe_secret_key_here
+STRIPE_PUBLIC_KEY=pk_test_your_stripe_publishable_key_here
+
+# Dropship Export Password
+DROPSHIP_PASSWORD=your_secure_password_here

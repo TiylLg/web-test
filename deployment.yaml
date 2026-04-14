@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dollhaven-backend
+  labels:
+    app: dollhaven-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dollhaven-backend
+  template:
+    metadata:
+      labels:
+        app: dollhaven-backend
+    spec:
+      containers:
+      - name: dollhaven-backend
+        image: 783764593567.dkr.ecr.us-east-1.amazonaws.com/dollhaven-backend:latest
+        ports:
+        - containerPort: 8000
+        envFrom:
+        - configMapRef:
+            name: dollhaven-backend-env
+

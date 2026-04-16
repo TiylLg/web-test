@@ -3,8 +3,6 @@ FROM python:3.11-slim
 COPY . /backend
 WORKDIR /backend
 
-# Copy environment file
-COPY .env /backend/
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt

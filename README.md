@@ -12,6 +12,7 @@ FastAPI backend for the website with authentication functionality.
 
 ## Setup
 
+
 ### 1. Create Virtual Environment
 ```bash
 python -m venv venv

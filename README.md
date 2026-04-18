@@ -10,7 +10,6 @@ FastAPI backend for the website with authentication functionality.
 - **Renew**: Token renewal endpoint
 - **MongoDB Integration**: Uses WebsiteDB database with Account and Verification collections
 
-
 ## Setup
 
 ### 1. Create Virtual Environment

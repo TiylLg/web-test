@@ -17,6 +17,7 @@ FastAPI backend for the website with authentication functionality.
 python -m venv venv
 ```
 
+
 ### 2. Activate Virtual Environment
 ```bash
 # Windows

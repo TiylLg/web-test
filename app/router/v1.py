@@ -30,11 +30,11 @@ router.include_router(
     tags=['Payment Management']
 )
 
-router.include_router(
-    products.router,
-    tags=['Products & Studios']
-)
+# router.include_router(
+#     products.router,
+#     tags=['Products & Studios']
+# )
 
-router.include_router(
-    images.router
-)
+# router.include_router(
+#     images.router
+# )

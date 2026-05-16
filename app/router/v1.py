@@ -25,10 +25,10 @@ router.include_router(
     tags=['Verification']
 )
 
-router.include_router(
-    payment.router,
-    tags=['Payment Management']
-)
+#router.include_router(
+#    payment.router,
+#    tags=['Payment Management']
+#)
 
 # router.include_router(
 #     products.router,
